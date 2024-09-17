@@ -1,0 +1,31 @@
+2024-09-15 09:42:04.954 +03:00 [INF] User profile is available. Using 'C:\Users\almom\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-15 09:42:05.475 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-15 09:42:05.477 +03:00 [INF] Hosting environment: Development
+2024-09-15 09:42:05.477 +03:00 [INF] Content root path: C:\Users\almom\Downloads\Smart_Supplies-main\Smart_Supplies-main\project7
+2024-09-15 09:42:05.630 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/swagger - null null
+2024-09-15 09:42:06.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/swagger/index.html - null null
+2024-09-15 09:42:06.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/swagger - 301 null null 1091.7571ms
+2024-09-15 09:42:07.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/swagger/index.html - 200 null text/html;charset=utf-8 341.1507ms
+2024-09-15 09:42:07.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-15 09:42:07.030 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-15 09:42:07.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/_vs/browserLink - null null
+2024-09-15 09:42:07.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/swagger/swagger-ui.css - null null
+2024-09-15 09:42:07.041 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/swagger/swagger-ui-bundle.js - null null
+2024-09-15 09:42:07.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 23.8439ms
+2024-09-15 09:42:07.113 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-15 09:42:07.113 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-15 09:42:07.118 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-15 09:42:07.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/swagger/swagger-ui.css - 200 143943 text/css 81.5049ms
+2024-09-15 09:42:07.138 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 113.8007ms
+2024-09-15 09:42:07.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 139.2892ms
+2024-09-15 09:42:07.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/_vs/browserLink - 200 null text/javascript; charset=UTF-8 151.1663ms
+2024-09-15 09:42:07.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44381/swagger/v1/swagger.json - null null
+2024-09-15 09:42:07.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44381/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 478.4027ms
+2024-09-15 09:42:21.852 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44381/api/Cart/mmm?a=5&b=10 - null 0
+2024-09-15 09:42:21.880 +03:00 [INF] CORS policy execution successful.
+2024-09-15 09:42:22.119 +03:00 [INF] Executing endpoint 'project7.Controllers.CartController.tre (project7)'
+2024-09-15 09:42:22.171 +03:00 [INF] Route matched with {action = "tre", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult tre(Int32, Int32) on controller project7.Controllers.CartController (project7).
+2024-09-15 09:42:22.656 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2024-09-15 09:42:22.688 +03:00 [INF] Executed action project7.Controllers.CartController.tre (project7) in 506.9834ms
+2024-09-15 09:42:22.688 +03:00 [INF] Executed endpoint 'project7.Controllers.CartController.tre (project7)'
+2024-09-15 09:42:22.693 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44381/api/Cart/mmm?a=5&b=10 - 200 null application/json; charset=utf-8 841.8638ms
